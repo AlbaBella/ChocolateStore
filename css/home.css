@@ -1,0 +1,38 @@
+.image1, .image2 {
+    height: auto;
+    width: 100%;
+}
+/* sm */
+@media (min-width: 768px) {
+    .image1, .image2 {
+        width: 150%;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+    .image1,.image2 {
+        width: 200%;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+    .image1, .image2 {
+        width: auto;
+    }
+}
+.bg-pic{
+    background: url("https://images.unsplash.com/photo-1511381939415-e44015466834?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat;
+    background-size: 100% auto;
+    
+}
+.bg-pic h1, p{
+    font-size: 40% auto;
+    display: auto;
+}
+.vidaloka{
+    font-family: 'Vidaloka', serif;
+}
+.bg-secondary{
+    size: 100% auto;
+}
+ 
